@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-09-27T11:40:55.757639",
+  "total_clients_processed": 1,
+  "best_global_f1": 0.6991565135895033,
+  "best_global_client": 1,
+  "best_global_params": {
+    "encoding_dim": 32,
+    "learning_rate": 0.0005,
+    "dropout_rate": 0.2,
+    "batch_size": 32,
+    "epochs": 150,
+    "use_batch_norm": false
+  },
+  "target_f1": 0.25,
+  "target_achieved": true,
+  "excellent_f1": 0.3,
+  "excellent_achieved": true
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "split_type":"temporal",
+    "client":"client_0",
+    "train_samples":10482,
+    "test_samples":2621,
+    "train_start":"2021-11-17 12:04:00",
+    "train_end":"2021-12-23 21:29:00",
+    "test_start":"2021-12-23 21:34:00",
+    "test_end":"2022-01-01 23:54:00",
+    "train_anomaly_rate":0.0479870254,
+    "test_anomaly_rate":0.053796261
+  },
+  {
+    "split_type":"temporal",
+    "client":"client_1",
+    "train_samples":9664,
+    "test_samples":2416,
+    "train_start":"2021-12-07 01:17:00",
+    "train_end":"2022-01-09 14:32:00",
+    "test_start":"2022-01-09 14:37:00",
+    "test_end":"2022-01-17 23:52:00",
+    "train_anomaly_rate":0.0494619205,
+    "test_anomaly_rate":0.0463576159
+  },
+  {
+    "split_type":"temporal",
+    "client":"client_2",
+    "train_samples":9288,
+    "test_samples":2323,
+    "train_start":"2021-12-07 16:29:00",
+    "train_end":"2022-01-08 22:24:00",
+    "test_start":"2022-01-08 22:29:00",
+    "test_end":"2022-01-16 23:59:00",
+    "train_anomaly_rate":0.0496339363,
+    "test_anomaly_rate":0.0464916057
+  },
+  {
+    "split_type":"temporal",
+    "client":"client_3",
+    "train_samples":10204,
+    "test_samples":2551,
+    "train_start":"2021-11-30 17:06:00",
+    "train_end":"2022-01-05 03:21:00",
+    "test_start":"2022-01-05 03:26:00",
+    "test_end":"2022-01-13 23:56:00",
+    "train_anomaly_rate":0.0497843983,
+    "test_anomaly_rate":0.0446883575
+  },
+  {
+    "split_type":"temporal",
+    "client":"client_4",
+    "train_samples":20961,
+    "test_samples":5241,
+    "train_start":"2021-08-30 11:53:00",
+    "train_end":"2021-10-12 21:33:00",
+    "test_start":"2021-10-12 21:33:00",
+    "test_end":"2021-10-28 23:53:00",
+    "train_anomaly_rate":0.0489480464,
+    "test_anomaly_rate":0.0488456401
+  },
+  {
+    "split_type":"patient_based_LOCO",
+    "client":"test_client_0",
+    "train_samples":62648,
+    "test_samples":13103,
+    "train_start":"2021-08-30 11:53:00",
+    "train_end":"2022-01-17 23:52:00",
+    "test_start":"2021-11-17 12:04:00",
+    "test_end":"2022-01-01 23:54:00",
+    "train_anomaly_rate":0.0488922232,
+    "test_anomaly_rate":0.0491490498
+  },
+  {
+    "split_type":"patient_based_LOCO",
+    "client":"test_client_1",
+    "train_samples":63671,
+    "test_samples":12080,
+    "train_start":"2021-08-30 11:53:00",
+    "train_end":"2022-01-16 23:59:00",
+    "test_start":"2021-12-07 01:17:00",
+    "test_end":"2022-01-17 23:52:00",
+    "train_anomaly_rate":0.0489547832,
+    "test_anomaly_rate":0.0488410596
+  },
+  {
+    "split_type":"patient_based_LOCO",
+    "client":"test_client_2",
+    "train_samples":64140,
+    "test_samples":11611,
+    "train_start":"2021-08-30 11:53:00",
+    "train_end":"2022-01-17 23:52:00",
+    "test_start":"2021-12-07 16:29:00",
+    "test_end":"2022-01-16 23:59:00",
+    "train_anomaly_rate":0.0489242283,
+    "test_anomaly_rate":0.0490052536
+  },
+  {
+    "split_type":"patient_based_LOCO",
+    "client":"test_client_3",
+    "train_samples":62996,
+    "test_samples":12755,
+    "train_start":"2021-08-30 11:53:00",
+    "train_end":"2022-01-17 23:52:00",
+    "test_start":"2021-11-30 17:06:00",
+    "test_end":"2022-01-13 23:56:00",
+    "train_anomaly_rate":0.0489713633,
+    "test_anomaly_rate":0.0487651901
+  },
+  {
+    "split_type":"patient_based_LOCO",
+    "client":"test_client_4",
+    "train_samples":49549,
+    "test_samples":26202,
+    "train_start":"2021-11-17 12:04:00",
+    "train_end":"2022-01-17 23:52:00",
+    "test_start":"2021-08-30 11:53:00",
+    "test_end":"2021-10-28 23:53:00",
+    "train_anomaly_rate":0.0489414519,
+    "test_anomaly_rate":0.0489275628
+  }
+]

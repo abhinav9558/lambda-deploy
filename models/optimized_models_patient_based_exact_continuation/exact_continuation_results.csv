@@ -1,0 +1,2 @@
+client_id,split_type,best_f1,best_params,train_samples,test_samples,features,anomaly_rate_train,anomaly_rate_test
+1,patient_based,0.6991565135895033,"{'encoding_dim': 32, 'learning_rate': 0.0005, 'dropout_rate': 0.2, 'batch_size': 32, 'epochs': 150, 'use_batch_norm': False}",63671,12080,16,0.04895478318229649,0.048841059602649006

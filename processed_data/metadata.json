@@ -1,0 +1,25 @@
+{
+  "n_clients": 5,
+  "total_samples": 75751,
+  "features": [
+    "timestamp",
+    "patient_id",
+    "glucose",
+    "carb_input",
+    "bolus_insulin",
+    "basal_insulin",
+    "meal_indicator",
+    "temp_basal_indicator",
+    "hour",
+    "day_of_week",
+    "is_night",
+    "glucose_normalized",
+    "bolus_insulin_normalized",
+    "basal_insulin_normalized",
+    "carb_input_normalized",
+    "hour_normalized",
+    "day_of_week_normalized",
+    "anomaly",
+    "client_id"
+  ]
+}

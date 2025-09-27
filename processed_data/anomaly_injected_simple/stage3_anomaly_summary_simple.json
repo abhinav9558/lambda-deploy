@@ -1,0 +1,253 @@
+{
+  "anomaly_weights": {
+    "dropout": 0.15,
+    "spikes": 0.2,
+    "infusion_failure": 0.15,
+    "sensor_drift": 0.2,
+    "intermittent_noise": 0.15,
+    "prolonged_bias": 0.15
+  },
+  "target_anomaly_rate": 0.05,
+  "summary_data": [
+    {
+      "split_type": "temporal",
+      "client_id": 0,
+      "train_samples": 10482,
+      "test_samples": 2621,
+      "train_anomaly_rate": 0.049608853272276286,
+      "test_anomaly_rate": 0.048836322014498286,
+      "train_anomaly_types": {
+        "dropout": 78,
+        "spikes": 104,
+        "infusion_failure": 78,
+        "sensor_drift": 104,
+        "intermittent_noise": 78,
+        "prolonged_bias": 78
+      },
+      "test_anomaly_types": {
+        "dropout": 19,
+        "spikes": 26,
+        "infusion_failure": 19,
+        "sensor_drift": 26,
+        "intermittent_noise": 19,
+        "prolonged_bias": 19
+      }
+    },
+    {
+      "split_type": "temporal",
+      "client_id": 1,
+      "train_samples": 9664,
+      "test_samples": 2416,
+      "train_anomaly_rate": 0.04966887417218543,
+      "test_anomaly_rate": 0.04966887417218543,
+      "train_anomaly_types": {
+        "dropout": 72,
+        "spikes": 96,
+        "infusion_failure": 72,
+        "sensor_drift": 96,
+        "intermittent_noise": 72,
+        "prolonged_bias": 72
+      },
+      "test_anomaly_types": {
+        "dropout": 18,
+        "spikes": 24,
+        "infusion_failure": 18,
+        "sensor_drift": 24,
+        "intermittent_noise": 18,
+        "prolonged_bias": 18
+      }
+    },
+    {
+      "split_type": "temporal",
+      "client_id": 2,
+      "train_samples": 9288,
+      "test_samples": 2323,
+      "train_anomaly_rate": 0.04952627045650301,
+      "test_anomaly_rate": 0.04907447266465777,
+      "train_anomaly_types": {
+        "dropout": 69,
+        "spikes": 92,
+        "infusion_failure": 69,
+        "sensor_drift": 92,
+        "intermittent_noise": 69,
+        "prolonged_bias": 69
+      },
+      "test_anomaly_types": {
+        "dropout": 17,
+        "spikes": 23,
+        "infusion_failure": 17,
+        "sensor_drift": 23,
+        "intermittent_noise": 17,
+        "prolonged_bias": 17
+      }
+    },
+    {
+      "split_type": "temporal",
+      "client_id": 3,
+      "train_samples": 10204,
+      "test_samples": 2551,
+      "train_anomaly_rate": 0.0497843982751862,
+      "test_anomaly_rate": 0.04939239513916111,
+      "train_anomaly_types": {
+        "dropout": 76,
+        "spikes": 102,
+        "infusion_failure": 76,
+        "sensor_drift": 102,
+        "intermittent_noise": 76,
+        "prolonged_bias": 76
+      },
+      "test_anomaly_types": {
+        "dropout": 19,
+        "spikes": 25,
+        "infusion_failure": 19,
+        "sensor_drift": 25,
+        "intermittent_noise": 19,
+        "prolonged_bias": 19
+      }
+    },
+    {
+      "split_type": "temporal",
+      "client_id": 4,
+      "train_samples": 20961,
+      "test_samples": 5241,
+      "train_anomaly_rate": 0.049902199322551404,
+      "test_anomaly_rate": 0.049608853272276286,
+      "train_anomaly_types": {
+        "dropout": 157,
+        "spikes": 209,
+        "infusion_failure": 157,
+        "sensor_drift": 209,
+        "intermittent_noise": 157,
+        "prolonged_bias": 157
+      },
+      "test_anomaly_types": {
+        "dropout": 39,
+        "spikes": 52,
+        "infusion_failure": 39,
+        "sensor_drift": 52,
+        "intermittent_noise": 39,
+        "prolonged_bias": 39
+      }
+    },
+    {
+      "split_type": "patient_based",
+      "client_id": 0,
+      "train_samples": 62648,
+      "test_samples": 13103,
+      "train_anomaly_rate": 0.04992976631336994,
+      "test_anomaly_rate": 0.04991223383957872,
+      "train_anomaly_types": {
+        "dropout": 469,
+        "spikes": 626,
+        "infusion_failure": 469,
+        "sensor_drift": 626,
+        "intermittent_noise": 469,
+        "prolonged_bias": 469
+      },
+      "test_anomaly_types": {
+        "dropout": 98,
+        "spikes": 131,
+        "infusion_failure": 98,
+        "sensor_drift": 131,
+        "intermittent_noise": 98,
+        "prolonged_bias": 98
+      }
+    },
+    {
+      "split_type": "patient_based",
+      "client_id": 1,
+      "train_samples": 63671,
+      "test_samples": 12080,
+      "train_anomaly_rate": 0.04994424463256428,
+      "test_anomaly_rate": 0.04966887417218543,
+      "train_anomaly_types": {
+        "dropout": 477,
+        "spikes": 636,
+        "infusion_failure": 477,
+        "sensor_drift": 636,
+        "intermittent_noise": 477,
+        "prolonged_bias": 477
+      },
+      "test_anomaly_types": {
+        "dropout": 90,
+        "spikes": 120,
+        "infusion_failure": 90,
+        "sensor_drift": 120,
+        "intermittent_noise": 90,
+        "prolonged_bias": 90
+      }
+    },
+    {
+      "split_type": "patient_based",
+      "client_id": 2,
+      "train_samples": 64140,
+      "test_samples": 11611,
+      "train_anomaly_rate": 0.04998440910508263,
+      "test_anomaly_rate": 0.049952631125656705,
+      "train_anomaly_types": {
+        "dropout": 481,
+        "spikes": 641,
+        "infusion_failure": 481,
+        "sensor_drift": 641,
+        "intermittent_noise": 481,
+        "prolonged_bias": 481
+      },
+      "test_anomaly_types": {
+        "dropout": 87,
+        "spikes": 116,
+        "infusion_failure": 87,
+        "sensor_drift": 116,
+        "intermittent_noise": 87,
+        "prolonged_bias": 87
+      }
+    },
+    {
+      "split_type": "patient_based",
+      "client_id": 3,
+      "train_samples": 62996,
+      "test_samples": 12755,
+      "train_anomaly_rate": 0.04993967870975935,
+      "test_anomaly_rate": 0.049705997647981184,
+      "train_anomaly_types": {
+        "dropout": 472,
+        "spikes": 629,
+        "infusion_failure": 472,
+        "sensor_drift": 629,
+        "intermittent_noise": 472,
+        "prolonged_bias": 472
+      },
+      "test_anomaly_types": {
+        "dropout": 95,
+        "spikes": 127,
+        "infusion_failure": 95,
+        "sensor_drift": 127,
+        "intermittent_noise": 95,
+        "prolonged_bias": 95
+      }
+    },
+    {
+      "split_type": "patient_based",
+      "client_id": 4,
+      "train_samples": 49549,
+      "test_samples": 26202,
+      "train_anomaly_rate": 0.049930371955034414,
+      "test_anomaly_rate": 0.04991985344630181,
+      "train_anomaly_types": {
+        "dropout": 371,
+        "spikes": 495,
+        "infusion_failure": 371,
+        "sensor_drift": 495,
+        "intermittent_noise": 371,
+        "prolonged_bias": 371
+      },
+      "test_anomaly_types": {
+        "dropout": 196,
+        "spikes": 262,
+        "infusion_failure": 196,
+        "sensor_drift": 262,
+        "intermittent_noise": 196,
+        "prolonged_bias": 196
+      }
+    }
+  ]
+}
